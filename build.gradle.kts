@@ -28,6 +28,12 @@ dependencies {
     testImplementation("org.testcontainers:localstack:1.19.3")
 }
 
+configurations.all {
+    resolutionStrategy {
+        force("software.amazon.awssdk:sqs:2.21.17")
+    }
+}
+
 group = "org.acme"
 version = "1.0.0-SNAPSHOT"
 

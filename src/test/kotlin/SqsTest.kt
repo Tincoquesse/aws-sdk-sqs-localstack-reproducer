@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
 class SqsTest {
 
     @Test
-    fun `Test should fail when quarkus version is '3_7_1'`(){
+    fun `Should succeed when quarkus version is'3_5_3'`(){
         // empty
     }
 }
